@@ -1,0 +1,66 @@
+/* ---------------------- BASE STYLES --------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+}
+
+/* -------------------------- HEADING ------------------------ */
+
+.header {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/hero-img.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: .5rem;
+}
+
+.heading-primary--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3rem;
+}
+
+.heading-primary--sub {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    padding-bottom: 1rem;
+}
