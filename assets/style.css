@@ -207,7 +207,7 @@ body {
     margin-bottom: 3rem;
 }
 
-/* -------------------------- SECTION QUOTES ------------------------ */
+/* -------------------------- SECTION REVIEWS ------------------------ */
 
 .section-reviews {
     background-color: #ECECEC;
@@ -253,3 +253,99 @@ body {
 .reviews__text p {
     margin-top: 1rem;
 }
+
+/* -------------------------- SECTION VIDEO TOUR ------------------------ */
+
+.section-tour {
+    text-align: center;
+    padding: 5rem 0 5rem 0;
+}
+
+.section-tour__video {
+    width: 70rem;
+    height: 30rem;
+}
+
+.section-tour__heading h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+/* -------------------------- SECTION SOCIAL LINKS ------------------------ */
+
+.section-social {
+    background-color: #ECECEC;
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+}
+
+.section-social__heading h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.section-social__heading p {
+    font-size: 1.8rem;
+    margin-bottom: 5rem;
+}
+
+.section-social__icon {
+    width: 6.4rem;
+    height: 6.4rem;
+    padding: 2.4rem 0;
+    border-radius: 50%;
+    font-size: 2.6rem;
+    line-height: 1.4rem;
+    text-align: center;
+    color: #fafafa;
+    transition: all .35s ease-in-out;
+}
+
+.facebook-icon {
+    background-color: #4267B2;
+}
+
+.twitter-icon {
+    background-color: #00acee;
+}
+
+.instagram-icon {
+    background-color: #3f729b;
+}
+
+.youtube-icon {
+    background-color: #FF0000;
+}
+
+.facebook-icon:hover {
+    background-color: #2a4b8c;
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem .1rem;
+    cursor: pointer;
+}
+
+.twitter-icon:hover {
+    background-color: #0184b8;
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem .1rem;
+    cursor: pointer;
+}
+
+.instagram-icon:hover {
+    background-color: #2d587b;
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem .1rem;
+    cursor: pointer;
+}
+
+.youtube-icon:hover {
+    background-color: #cb0000;
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem .1rem;
+    cursor: pointer;
+}
+
