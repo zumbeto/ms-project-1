@@ -43,7 +43,7 @@ body {
 }
 
 .heading-primary {
-    color: rgba(227, 226, 226);
+    color: #E3E2E2;
     text-transform: uppercase;
     margin-bottom: 3rem;
     padding-left: 6rem;
@@ -114,11 +114,15 @@ body {
     font-size: 1.8rem;
 }
 
-.nav-link {
+.navbar-dark .navbar-nav .nav-link {
     color: #E3E2E2;
     padding: 1rem;
     font-weight: 700;
     font-size: 1.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff80;
 }
 
 .collapse {
@@ -262,8 +266,8 @@ body {
 }
 
 .section-tour__video {
-    width: 70rem;
-    height: 30rem;
+    width: 50em;
+    height: 20em;
 }
 
 .section-tour__heading h3 {
@@ -349,3 +353,27 @@ body {
     cursor: pointer;
 }
 
+/* -------------------------- FOOTER NAV ------------------------ */
+
+.footer-nav {
+    background-color: #4E5555;
+    color: #E3E2E2;
+    text-align: center;
+    padding: 8rem 0 8rem 0;
+}
+
+.footer-nav__item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #E3E2E2;
+    font-size: 2rem;
+}
+
+.footer-nav__item a:hover {
+    color: #ffffff80;
+}
+
+.copyright {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
