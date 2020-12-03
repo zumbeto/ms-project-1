@@ -34,11 +34,15 @@ body {
     padding: 0;
 }
 
-.header__text-box {
+.header__box{
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header__text-box {
     text-align: center;
 }
 
@@ -48,21 +52,21 @@ body {
     margin-bottom: 3rem;
     padding-left: 6rem;
     padding-right: 3.5rem;
-    background-color: rgba(52, 58, 64, .8);
-    border-radius: .5rem;
+    background-color: rgba(59, 64, 63, 0.5);
+    border-radius: 1.5rem;
 }
 
 .heading-primary--main {
     display: block;
     font-size: 6rem;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 3rem;
 }
 
 .heading-primary--sub {
     display: block;
     font-size: 1.7rem;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1.75rem;
     padding-bottom: 1rem;
 }
@@ -77,13 +81,15 @@ body {
     text-transform: uppercase;
     background-color: #fff;
     display: inline-block;
-    transition: all .2s;
+    transition: all .3s;
     position: relative;
+
 }
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem .1rem;
+    box-shadow: 0 .5rem 1rem .1rem rgba(0, 0, 0, 0.5);
+    background-color: #ffffff80;
 }
 
 .btn--hero {
@@ -96,6 +102,23 @@ body {
     padding: 1rem 2rem;
     border-radius: 5rem;
     font-size: 1.5rem;
+    color: #000;
+}
+
+.btn--form {
+    background-color: rgba(44, 47, 50, 0.8);
+    color: #E3E2E2;
+    padding: 1rem 3rem 1rem 3rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: all .3s;
+    border-radius: 10rem;
+}
+
+.btn--form:hover {
+    background-color: #E3E2E2;
 }
 
 /* -------------------------- NAVIGATION ------------------------ */
@@ -135,15 +158,34 @@ body {
     justify-content: space-evenly;
 }
 
+.navbar .dropdown-menu a {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.navbar .dropdown-menu a:hover {
+    background-color: #E3E2E2;
+}
+
+.navbar .dropdown-menu {
+    background-color: #fff;
+}
+
+
 /* -------------------------- SECTION CARDS ------------------------ */
 
 .section-cards {
     padding-top: 5rem;
 }
 
+.section-cards .row .col-sm {
+    margin-bottom: 5rem;
+}
+
 .section-cards__heading {
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .section-cards__heading h2 {
@@ -154,6 +196,7 @@ body {
 }
 
 .card {
+    width: 100%;
     height: 100%;
     border: none;
     margin-bottom: 2rem;
@@ -266,8 +309,8 @@ body {
 }
 
 .section-tour__video {
-    width: 50em;
-    height: 20em;
+    width: 70%;
+    height: 30rem;
 }
 
 .section-tour__heading h3 {
@@ -356,10 +399,10 @@ body {
 /* -------------------------- FOOTER NAV ------------------------ */
 
 .footer-nav {
-    background-color: #4E5555;
+    background-color: #3B403F;
     color: #E3E2E2;
     text-align: center;
-    padding: 8rem 0 8rem 0;
+    padding: 3rem 0 3rem 0;
 }
 
 .footer-nav__item a {
@@ -375,5 +418,64 @@ body {
 
 .copyright {
     font-size: 1.5rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
+}
+
+/* -------------------------- FORMS ------------------------ */
+
+.md-form label {
+    top: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    padding-left: 1rem;
+}
+
+.md-form .form-control {
+    height: auto;
+    padding: 1rem 0 1rem 0;
+    margin: 0 0 .5rem 0;
+    background-color: transparent;
+    border-radius: 0;
+    font-size: 2rem;
+}
+
+.modal-content .modal-body .md-form {
+    position: relative;
+}
+
+.modal-content .modal-body .md-form label {
+    position: absolute;
+    transition: all .5s;
+    pointer-events: none;
+}
+
+.modal-content input:focus ~ label,
+.modal-content textarea:focus ~ label,
+.modal-content input:valid ~ label,
+.modal-content textarea:valid ~ label {
+    top: -3rem;
+}
+
+.md-form .validate {
+    margin-bottom: 4.5rem;
+}
+
+.md-form .prefix ~ input, .md-form .prefix ~ textarea {
+    width: calc(100% - 2.5rem);
+    margin-left: 3rem;
+}
+
+.md-form .prefix {
+    top: 1.25rem;
+    font-size: 2.5rem;
+}
+
+.form-control {
+    line-height: 0.5;
+}
+
+.modal-title {
+    font-size: 3rem;
+    margin-bottom: 0;
+    line-height: 3.5;
 }
