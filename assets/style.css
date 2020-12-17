@@ -1,4 +1,4 @@
-/* ---------------------- BASE STYLES --------------------------*/
+/* ---------------------- BASE STYLES -------------------------- */
 
 * {
     margin: 0;
@@ -113,12 +113,13 @@ body {
     font-size: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    transition: all .3s;
+    transition: all .2s;
     border-radius: 10rem;
 }
 
 .btn--form:hover {
     background-color: #E3E2E2;
+    transform: translateY(-1px); 
 }
 
 /* -------------------------- NAVIGATION ------------------------ */
@@ -185,7 +186,7 @@ body {
 
 .section-cards__heading {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .section-cards__heading h2 {
@@ -324,7 +325,7 @@ body {
 
 .section-social {
     background-color: #ECECEC;
-    padding: 5rem 0 5rem 0;
+    padding: 4rem 0 4rem 0;
     text-align: center;
 }
 
@@ -402,7 +403,7 @@ body {
     background-color: #3B403F;
     color: #E3E2E2;
     text-align: center;
-    padding: 3rem 0 3rem 0;
+    padding: 2rem 0 2rem 0;
 }
 
 .footer-nav__item a {
@@ -478,4 +479,125 @@ body {
     font-size: 3rem;
     margin-bottom: 0;
     line-height: 3.5;
+}
+
+/* -------------------------- MEDIA QUERIES ------------------------ */
+
+@media only screen and (max-width: 580px) {
+    .heading-primary--main {
+        font-size: 3rem;
+        letter-spacing: 2rem;
+    }
+
+    .heading-primary--sub {
+        font-size: 1rem;
+        letter-spacing: 1rem;
+    }
+
+    .btn--hero {
+        padding: 1rem 3rem;
+        font-size: 1rem;
+    }
+
+    .section-cards__heading h2 {
+        font-size: 2rem;
+        letter-spacing: .1rem;
+    }
+
+    .card__heading h3 {
+        font-size: 1.5rem;
+        padding: 1rem 1rem 1rem;
+    }
+
+    .card__description p {
+        font-size: 1.5rem;
+        padding: 1rem 1rem 1rem;
+    }
+
+    .section-classes {
+        height: 100vh;
+    }
+    
+    .classes {
+        top: 50%;
+    }
+
+    .classes h3 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .classes p {
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .classes__box-1 {
+        margin-bottom: 10rem;
+    }
+
+    .section-reviews__heading {
+        margin-bottom: 3rem;
+    }
+
+    .section-reviews__heading h2 {
+        font-size: 2rem;
+        letter-spacing: .1rem;
+    }
+
+    .reviews {
+        margin-bottom: 2rem;
+    }
+
+    .reviews__text {
+        font-size: 1.5rem;
+    }
+
+    .section-tour__heading h3 {
+        font-size: 2rem;
+    }
+
+    .section-social__heading h3 {
+        font-size: 2rem;
+    }
+
+    .section-social__heading p {
+        font-size: 1.5rem;
+    }
+
+    .section-social .container .row {
+        flex-wrap: nowrap;
+    }
+
+    .copyright {
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .modal-dialog {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
+    .modal-content {
+        width: 96%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .offset-md-6 {
+    margin-left: 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+    max-width: 600px;
+    }
 }
