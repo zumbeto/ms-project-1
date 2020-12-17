@@ -23,6 +23,7 @@ body {
     line-height: 1.7;
 }
 
+
 /* -------------------------- HEADER ------------------------ */
 
 .header {
@@ -592,9 +593,9 @@ body {
     }
 
     .modal-dialog {
-        width: auto;
+        max-width: 300px;
         height: auto;
-        margin: 0;
+        margin: 2rem auto;
     }
 
     .modal-content {
