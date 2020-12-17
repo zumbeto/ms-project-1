@@ -28,7 +28,7 @@ body {
 .header {
     position: relative;
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/hero-img.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.153), rgba(0, 0, 0, 0.153)), url(img/hero-img.jpg);
     background-size: cover;
     background-position: top;
     padding: 0;
@@ -417,6 +417,11 @@ body {
     color: #ffffff80;
 }
 
+.footer-nav .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .copyright {
     font-size: 1.5rem;
     margin-top: 3rem;
@@ -483,7 +488,7 @@ body {
 
 /* -------------------------- MEDIA QUERIES ------------------------ */
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 580px) { 
     .heading-primary--main {
         font-size: 3rem;
         letter-spacing: 2rem;
@@ -574,7 +579,15 @@ body {
         margin-top: 2rem;
     }
 
+    .navbar-nav {
+        flex-direction: column-reverse;
+    }
+
     .navbar-brand {
+        display: none;
+    }
+
+    .nav-link i {
         display: none;
     }
 
