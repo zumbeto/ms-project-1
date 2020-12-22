@@ -563,6 +563,10 @@ body {
         font-size: 2rem;
     }
 
+    .section-tour .row {
+        margin: 0;
+    }
+
     .section-social__heading h3 {
         font-size: 2rem;
     }
@@ -571,8 +575,8 @@ body {
         font-size: 1.5rem;
     }
 
-    .section-social .container .row {
-        flex-wrap: nowrap;
+    .section-social i {
+        margin-bottom: 2rem;
     }
 
     .copyright {
