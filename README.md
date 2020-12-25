@@ -41,9 +41,8 @@ The website should be easy to navigate and should encourage the user to explore 
 * I want to quickly establish what services the gym offers.
 * I want to be able to read reviews left by existing gym members.
 * I want to be able to establish if the gym is clean and safe and if any measures have been taken in terms of social distancing.
-* I want to find ways to follow the gym on different social media platforms for workout videos and tips.
 * I want to be able to easily sign up/sign in as a member.
-* I want to be able to follow the gym on various social media platforms.
+* I want to be able to follow the gym on various social media platforms for workout videos and tips.
 * I want the website to be responsive so I can view it on my mobile phone.
 
 ### Returning User
