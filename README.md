@@ -1,83 +1,179 @@
 # Power Gym
 
-> Commit to be fit!
+![Mockups](assets/mockups-and-wireframes/mockup-1.jpg)
+
+---
+
+## Description
+> The main purpose of this project was to build a website for my First Milestone Project as a part of the Full Stack Web Developer Diploma course, using knowledge of HTML and CSS. I have decided to build a website for a fictional gym called Power Gym.
 
 ---
 
 ### Table of Contents
 
 - [Description](#description)
-- [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
-- [Author Info](#author-info)
+- [UX](#UX)
+- [Strategy](#Strategy)
+- [Scope](#Scope)
+- [Structure](#Structure)
+- [Skeleton](#Skeleton)
+- [Surface](#Surface)
+- [Technologies Used](#TechnologiesUsed)
+- [Testing](#Testing)
+- [Deployment](#Deployment)
+- [Credits](#Credits)
+- [Acknowledgements](#Acknowledgements)
+
+---
+# UX
+
+## Strategy
+
+The website should be easy to navigate and should encourage the user to explore all the sections of the main page to learn more about what the gym has to offer. The site should be simple and bright, which will be accomplished by using white, light grey and dark grey colours.
 
 ---
 
-## Description
+## User Stories
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+### First time user
+  As a first time user,
+* I want to be able to  navigate through the site easily to find information.
+* I want to quickly establish what services the gym offers.
+* I want to be able to read reviews left by existing gym members.
+* I want to be able to establish if the gym is clean and safe and if any measures have been taken in terms of social distancing.
+* I want to find ways to follow the gym on different social media platforms for workout videos and tips.
+* I want to be able to easily sign up/sign in as a member.
+* I want to be able to follow the gym on various social media platforms.
+* I want the website to be responsive so I can view it on my mobile phone.
 
-#### Technologies
-
-- Technology 1
-- Technology 2
-
-[Back To The Top](#read-me-template)
-
----
-
-## How To Use
-
-#### Installation
-
-
-
-#### API Reference
-
-```html
-    <p>dummy code</p>
-```
-[Back To The Top](#read-me-template)
+### Returning User
+  As a returning user,
+* I want to check if there are any new classes or training sessions.
+* I want to book online classes or join training classes at the gym.
+* I want to contact the gym to find out more information about their services.
 
 ---
 
-## References
-[Back To The Top](#read-me-template)
+## Scope 
+
+### Features
+- The website has a sticky navigation, which will allow the user to navigate easily throughout the different sections.
+- The user can click the "PowerGym" logo on the sticky navigation to go back to the start(top) of the page.
+- The user can click the "Join Us" button below the main heading of the page to access a signup form.
+- The user can click the "Menu" button to access a dropdown menu.
+- The user can click the "Log In" button to access a pop up login form.
+- The user can click the "Contact Us" button in the dropdown menu to access a contact form, where they can get in touch with the gym.
+- They also have an option to contact the gym through the form located on the bottom of the page above the social links section or by clicking "Contact Us" link in the footer.
+- "Find a Gym" button provides an easy way to find out where their local gym is located.
+- "See all classes" button provides an easy way to check out all the classes the gym offers.
+- There is a video below the user stories, which takes the user on a tour inside the gym.
+- There is a section with social links providing the user an easy access to all social media platforms the gym is currently on.
+
+### Structure
+- The website is going to have a sticky navigation bar at the top of the page so that the user can easily navigate the site thus fulfilling the user story:\
+ I want to be able to  navigate through the site easily to find information.
+- The cards section will contain information about what the gym has to offer to their members thus fullfilling the user stories:\
+ I want to quickly establish what services the gym offers.\
+ I want to be able to establish if the gym is clean and safe and if any measures have been taken in terms of social distancing.
+- There are multiple sign up, sign in and contact forms to fullfill the user story:\
+ I want to be able to easily sign up/sign in as a member.
+- There is a user stories section, which contains reviews from existing gym members. The purpose is to fulfil the user story:\
+ I want to be able to read reviews left by existing gym members.
+- "Let's Get Social" section provides the user with link to social media.
+   The purpose is to fulfil the user story:\
+    I want to be able to follow the gym on various social media platforms.
+- The website will be made responsive using Bootstrap and media queries to fulfil the user story\
+    I want the website to be responsive so I can view it on my mobile phone.
+
+## Skeleton
+
+### Wireframes 
+
+[Home Page](link to wireframes to be added)
+
+## Surface
+
+### Design 
+
+ ### Typogroaphy 
+ Google font "Lato" was used throughout the website, with the fallback font of sans-serif.
+
+### Colors
+  Light grey color was used for the text to contrast the dark grey backgrounds.\
+  White, dark grey and light grey colors were used throughout the sections of the website for consistency.
+  The same dark grey color was used for the form buttons and the light grey for the hover effect.\
+  The CTA buttons on main page use light grey color and the same color for the hover, but going a bit transperent for nice hover effect.
+
+# Technologies Used
+
+1. [HTML](https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.)
+
+1. [CSS](https://en.wikipedia.org/wiki/CSS)
+
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Lato' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used to add icons.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the project's code and host the live website.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframe.
+
+## Bugs found while developing the project
+- There was white space on the right side of the page while in mobile view, which was caused by the default margint-left and margin-right on the bootstrap row class. Found this out with the help of my fellow coders on Slack.
+- The placeholder text in the forms was dropping down and was overlapping the input text when the field was invalid. I solved the problem by targeting the textarea:invalid pseudo-element and setting its position.
+
+# Testing
+
+## Testing was completed in the following stages: 
+1. Test all code is working and passes through the validators without errors
+2. Test website responsiveness across various browsers and various devices to confirm that the website is fully responsive
+3. Test that all features work as intended by testing user stories
+
+## Deployment
+
+The project was deployed to GitHub Pages using the following steps:
+
+- A local project was created in GitHub.
+- The project was deployed by logging in to GitHub and locating the [GitHub Repository](https://github.com/zumbeto/ms-project-1)
+- At the top of the Repository, locate the "Settings" Button and click it
+- Scroll down the Settings page to find the "GitHub Pages" Section
+- Under "Source", click the dropdown called "None" and select "Master Branch"
+- The page will automatically refresh
+- Scroll back down through the page to locate the now published site [link](https://zumbeto.github.io/ms-project-1/) in the "GitHub Pages" section
+- The code can be run locally through clone or download, you can do this by opening the repository, clicking on the code button and then selecting either 'clone' or 'download'
+- The Clone option provides a url, which you can use on your desktop IDE
+- The Download option provides a link to download a ZIP file which can be unzipped on your local machine
+
+# Credits
+
+## Code
+
+### [Bootstrap5](https://getbootstrap.com/)
+- I used Bootstrap for their grid system and I also used their navbar and forms as I changed them to suit my website.
+### Other Sources
+- The photos in the website were downloaded from [pexels.com](https://www.pexels.com/) 
+- The video in my project was picked randomly from [youtube](youtube.com)
+- The icons were taken from [fontawesome.com](https://fontawesome.com/)
 
 ---
 
-## License
+# Acknowledgements
 
-MIT License
-
-Copyright (c) [2017] [James Q Quick]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-[Back To The Top](#read-me-template)
+I'd like to thank you to 
+- My mentor Adegbenga Adeye for his support, guidence and all the helpful advice.
+- Matt Rudge, Brian O Grady, Anna Greaves and all the amazing tutors from Code Institute for the tutorials.
+- Slack students for their help.
 
 ---
 
-## Author Info
+# Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Facebook - [Stoyan Peev](https://www.facebook.com/StoqnIlievPeev/)
+- Email - [stoyanilievpeev@gmail.com](https://mail.google.com/)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](##Description)

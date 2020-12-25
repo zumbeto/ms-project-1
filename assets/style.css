@@ -456,6 +456,10 @@ body {
     pointer-events: none;
 }
 
+.modal-body {
+    padding: 2.5rem;
+}
+
 .modal-content input:focus ~ label,
 .modal-content textarea:focus ~ label,
 .modal-content input:valid ~ label,
@@ -491,7 +495,7 @@ body {
 
 .contact-form-main {
     background-color: #ECECEC;
-    padding: 3rem 0 3rem 0;
+    padding: 5rem 0 5rem 0;
 }
 
 .contact-form-main__container {
