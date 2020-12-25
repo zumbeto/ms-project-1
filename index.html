@@ -30,12 +30,13 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalRegisterForm">Join Now</a>
             <a class="dropdown-item" href="https://www.google.co.uk/maps?hl=en&tab=wl&authuser=0" target="_blank">Find a gym</a>
+            <a class="dropdown-item" href="#user-stories">About Us</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalContactForm">Contact us</a>
           </div>
         </li>
         <li>
-        <a class="navbar-brand" href="#section-cards">Power Gym</a>
+        <a class="navbar-brand" href="#main-header">Power Gym</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" tabindex="-1" aria-disabled="true" data-toggle="modal" data-target="#modalLoginForm"> <i class="fas fa-sign-in-alt"></i> &nbsp; Log In</a>
@@ -77,7 +78,7 @@
     </div>
 
 <!-- HEADER -->
-    <header class="header container-fluid">
+    <header class="header container-fluid" id="main-header">
       <div class="container header__box">
         <div class="row">
           <div class="col">
@@ -252,12 +253,12 @@
     </section>
 
 <!-- SECTION REVIEWS -->
-    <section class="section-reviews container-fluid">
+    <section class="section-reviews container-fluid" id="user-stories">
       <div class="container">
         <div class="row">
           <div class="col">
             <div class="section-reviews__heading">
-              <h2>What our members say about us</h2>
+              <h3>What our members say about us</h3>
             </div>
           </div>
         </div>
@@ -319,6 +320,7 @@
         </div>
     </div>
     </section>
+
 <!-- SECTION TOUR -->
     <section class="section-tour container">
       <div class="row">
@@ -331,13 +333,60 @@
         </div>
     </section>
 
+      <!-- CONTACT FORM MAIN PAGE from Bootstrap -->
+    <section class="contact-form-main">
+      <div class="contact-form-main__container container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="contact-form-main__heading">
+            <h3>Got something on your mind?</h3>
+            </div>
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h4 class="modal-title w-100">Write to us</h4>
+              </div>
+              <div class="modal-body mx-3">
+                <div class="md-form mb-5">
+                  <i class="fas fa-user prefix grey-text"></i>
+                  <input type="text" id="form34" class="form-control validate">
+                  <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                </div>
+
+                <div class="md-form mb-5">
+                  <i class="fas fa-envelope prefix grey-text"></i>
+                  <input type="email" id="form29" class="form-control validate">
+                  <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                </div>
+
+                <div class="md-form mb-5">
+                  <i class="fas fa-tag prefix grey-text"></i>
+                  <input type="text" id="form32" class="form-control validate">
+                  <label data-error="wrong" data-success="right" for="form32">Subject</label>
+                </div>
+
+                <div class="md-form">
+                  <i class="fas fa-pencil prefix grey-text"></i>
+                  <textarea rows="10" id="form8" class="md-textarea form-control"></textarea>
+                  <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                </div>
+
+              </div>
+              <div class="modal-footer d-flex justify-content-center">
+                <button class="btn btn--form">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 <!-- SECTION SOCIAL -->
     <section class="section-social container-fluid">
       <div class="container">
         <div class="row">
           <div class="col">
             <div class="section-social__heading">
-            <h3>Get Social</h3>
+            <h3>Let's Get Social</h3>
             <p>Follow us for workout videos and tips, healthy recipes and inspirational stories.</p>
             </div>
           </div>

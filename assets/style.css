@@ -269,7 +269,7 @@ body {
     margin-bottom: 5rem;
 }
 
-.section-reviews__heading h2 {
+.section-reviews__heading h3 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2.5rem;
@@ -325,7 +325,7 @@ body {
 /* -------------------------- SECTION SOCIAL LINKS ------------------------ */
 
 .section-social {
-    background-color: #ECECEC;
+    background-color: #fff;
     padding: 4rem 0 4rem 0;
     text-align: center;
 }
@@ -459,7 +459,9 @@ body {
 .modal-content input:focus ~ label,
 .modal-content textarea:focus ~ label,
 .modal-content input:valid ~ label,
-.modal-content textarea:valid ~ label {
+.modal-content textarea:valid ~ label,
+.modal-content textarea:invalid ~ label,
+.modal-content input:invalid ~ label {
     top: -3rem;
 }
 
@@ -485,6 +487,24 @@ body {
     font-size: 3rem;
     margin-bottom: 0;
     line-height: 3.5;
+}
+
+.contact-form-main {
+    background-color: #ECECEC;
+    padding: 3rem 0 3rem 0;
+}
+
+.contact-form-main__container {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contact-form-main__heading h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    text-align: center;
 }
 
 /* -------------------------- MEDIA QUERIES ------------------------ */
@@ -606,15 +626,29 @@ body {
         width: 100%;
     }
 
+    .contact-form-main__container {
+        min-width: 300px;
+    }
+
 }
 
-@media (min-width: 768px) {
-    .offset-md-6 {
-    margin-left: 5rem;
+@media only screen and (min-width: 580px) {
+    .contact-form-main__container {
+        min-width: 500px;
     }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 768px) {
+    .offset-md-6 {
+    margin-left: 5rem;
+    }
+
+    .contact-form-main__container {
+        min-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
     .modal-lg, .modal-xl {
     max-width: 600px;
     }
