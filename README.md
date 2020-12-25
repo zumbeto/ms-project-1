@@ -18,7 +18,7 @@
 - [Structure](#Structure)
 - [Skeleton](#Skeleton)
 - [Surface](#Surface)
-- [Technologies Used](#TechnologiesUsed)
+- [Technologies Used](#Technologies-Used)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
@@ -89,7 +89,7 @@ The website should be easy to navigate and should encourage the user to explore 
 
 ### Wireframes 
 
-[Home Page](link to wireframes to be added)
+[Website wireframe](https://github.com/zumbeto/ms-project-1/blob/main/assets/mockups-and-wireframes/ms-project-1-wireframe.pdf)
 
 ## Surface
 
@@ -106,9 +106,9 @@ The website should be easy to navigate and should encourage the user to explore 
 
 # Technologies Used
 
-1. [HTML](https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.)
+1. [HTML5](https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.)
 
-1. [CSS](https://en.wikipedia.org/wiki/CSS)
+1. [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
