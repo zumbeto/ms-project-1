@@ -50,29 +50,31 @@
       aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-          <div class="modal-header text-center">
-            <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body mx-3">
-            <div class="md-form mb-5">
-              <i class="fas fa-envelope prefix grey-text"></i>
-              <input type="email" id="defaultForm-email" class="form-control validate">
-              <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+          <form>
+            <div class="modal-header text-center">
+              <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-    
-            <div class="md-form mb-4">
-              <i class="fas fa-lock prefix grey-text"></i>
-              <input type="password" id="defaultForm-pass" class="form-control validate">
-              <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+            <div class="modal-body mx-3">
+              <div class="md-form mb-5">
+                <i class="fas fa-envelope prefix grey-text"></i>
+                <input type="email" id="defaultForm-email" class="form-control validate" required="">
+                <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+              </div>
+      
+              <div class="md-form mb-4">
+                <i class="fas fa-lock prefix grey-text"></i>
+                <input type="password" id="defaultForm-pass" class="form-control validate" required="">
+                <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+              </div>
+      
             </div>
-    
-          </div>
-          <div class="modal-footer d-flex justify-content-center">
-            <button class="btn btn--form hover-helper">Login</button>
-          </div>
+            <div class="modal-footer d-flex justify-content-center">
+              <button class="btn btn--form hover-helper" type="submit">Login</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -109,34 +111,36 @@
             aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header text-center">
-            <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body mx-3">
-            <div class="md-form mb-5">
-              <i class="fas fa-user prefix grey-text"></i>
-              <input type="text" id="orangeForm-name" class="form-control validate">
-              <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
+          <form>
+            <div class="modal-header text-center">
+              <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-            <div class="md-form mb-5">
-              <i class="fas fa-envelope prefix grey-text"></i>
-              <input type="email" id="orangeForm-email" class="form-control validate">
-              <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
+            <div class="modal-body mx-3">
+              <div class="md-form mb-5">
+                <i class="fas fa-user prefix grey-text"></i>
+                <input type="text" id="orangeForm-name" class="form-control validate" required="">
+                <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
+              </div>
+              <div class="md-form mb-5">
+                <i class="fas fa-envelope prefix grey-text"></i>
+                <input type="email" id="orangeForm-email" class="form-control validate" required="">
+                <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
+              </div>
+            
+              <div class="md-form mb-4">
+                <i class="fas fa-lock prefix grey-text"></i>
+                <input type="password" id="orangeForm-pass" class="form-control validate" required="">
+                <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
+              </div>
+            
             </div>
-          
-            <div class="md-form mb-4">
-              <i class="fas fa-lock prefix grey-text"></i>
-              <input type="password" id="orangeForm-pass" class="form-control validate">
-              <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
+            <div class="modal-footer d-flex justify-content-center">
+              <button class="btn btn--form" type="submit">Sign up</button>
             </div>
-          
-          </div>
-          <div class="modal-footer d-flex justify-content-center">
-            <button class="btn btn--form">Sign up</button>
-          </div>
+          </form>
         </div>
       </div>
     </div>
@@ -334,51 +338,49 @@
     </section>
 
       <!-- CONTACT FORM MAIN PAGE from Bootstrap -->
-    <section class="contact-form-main">
-      <div class="contact-form-main__container container-fluid">
-        <div class="row">
-          <div class="col">
-            <div class="contact-form-main__heading">
-            <h3>Got something on your mind?</h3>
-            </div>
-            <div class="modal-content">
-              <div class="modal-header text-center">
-                <h4 class="modal-title w-100">Write to us</h4>
+      <section class="contact-form-main">
+        <div class="contact-form-main__container container-fluid">
+          <div class="row">
+            <div class="col">
+              <div class="contact-form-main__heading">
+              <h3>Got something on your mind?</h3>
               </div>
-              <div class="modal-body mx-3">
-                <div class="md-form mb-5">
-                  <i class="fas fa-user prefix grey-text"></i>
-                  <input type="text" id="form34" class="form-control validate">
-                  <label data-error="wrong" data-success="right" for="form34">Your name</label>
+              <div class="modal-content">
+      <form> 
+                <div class="modal-header text-center">
+                  <h4 class="modal-title w-100">Write to us</h4>
                 </div>
-
-                <div class="md-form mb-5">
-                  <i class="fas fa-envelope prefix grey-text"></i>
-                  <input type="email" id="form29" class="form-control validate">
-                  <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                <div class="modal-body mx-3">
+                  <div class="md-form mb-5">
+                    <i class="fas fa-user prefix grey-text"></i>
+                    <input type="text" id="form34" class="form-control validate" required="">
+                    <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                  </div>
+                  <div class="md-form mb-5">
+                    <i class="fas fa-envelope prefix grey-text"></i>
+                    <input type="email" id="form29" class="form-control validate" required="">
+                    <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                  </div>
+                  <div class="md-form mb-5">
+                    <i class="fas fa-tag prefix grey-text"></i>
+                    <input type="text" id="form32" class="form-control validate" required="">
+                    <label data-error="wrong" data-success="right" for="form32">Subject</label>
+                  </div>
+                  <div class="md-form">
+                    <i class="fas fa-pencil prefix grey-text"></i>
+                    <textarea rows="10" id="form8" class="md-textarea form-control" required=""></textarea>
+                    <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                  </div>
                 </div>
-
-                <div class="md-form mb-5">
-                  <i class="fas fa-tag prefix grey-text"></i>
-                  <input type="text" id="form32" class="form-control validate">
-                  <label data-error="wrong" data-success="right" for="form32">Subject</label>
+                <div class="modal-footer d-flex justify-content-center">
+                  <button class="btn btn--form" type="submit">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
                 </div>
-
-                <div class="md-form">
-                  <i class="fas fa-pencil prefix grey-text"></i>
-                  <textarea rows="10" id="form8" class="md-textarea form-control"></textarea>
-                  <label data-error="wrong" data-success="right" for="form8">Your message</label>
-                </div>
-
-              </div>
-              <div class="modal-footer d-flex justify-content-center">
-                <button class="btn btn--form">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </form> 
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
 <!-- SECTION SOCIAL -->
     <section class="section-social container-fluid">
@@ -431,7 +433,9 @@
         </div>
         <div class="col-sm">
           <div class="footer-nav__item">
-            <a href="#" data-toggle="modal" data-target="#modalContactForm">Contact us</a>
+            <h3>Contact us</h3>
+            <p><i class="fas fa-phone-alt"></i> 035 243 234 934</p>
+            <p><i class="far fa-envelope"></i> powergym@gmail.com</p>
           </div>
         </div>
       </div>
@@ -443,50 +447,6 @@
         </div>
       </div>
     </footer>
-
-<!-- Contact form from Bootstrap -->
-      <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-       <div class="modal-content">
-          <div class="modal-header text-center">
-            <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body mx-3">
-            <div class="md-form mb-5">
-              <i class="fas fa-user prefix grey-text"></i>
-              <input type="text" id="form35" class="form-control validate">
-              <label data-error="wrong" data-success="right" for="form34">Your name</label>
-            </div>
-
-            <div class="md-form mb-5">
-              <i class="fas fa-envelope prefix grey-text"></i>
-              <input type="email" id="form30" class="form-control validate">
-              <label data-error="wrong" data-success="right" for="form29">Your email</label>
-            </div>
-
-            <div class="md-form mb-5">
-              <i class="fas fa-tag prefix grey-text"></i>
-              <input type="text" id="form33" class="form-control validate">
-              <label data-error="wrong" data-success="right" for="form32">Subject</label>
-            </div>
-
-            <div class="md-form">
-              <i class="fas fa-pencil prefix grey-text"></i>
-              <textarea rows="10" id="form9" class="md-textarea form-control"></textarea>
-              <label data-error="wrong" data-success="right" for="form8">Your message</label>
-            </div>
-
-          </div>
-          <div class="modal-footer d-flex justify-content-center">
-            <button class="btn btn--form">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
 
 <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

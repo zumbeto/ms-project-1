@@ -428,6 +428,17 @@ body {
     margin-top: 3rem;
 }
 
+.footer-nav__item i {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.footer-nav__item h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 /* -------------------------- FORMS ------------------------ */
 
 .md-form label {
@@ -461,7 +472,10 @@ body {
 }
 
 .modal-content input:focus ~ label,
-.modal-content textarea:focus ~ label,
+.modal-content textarea:focus ~ label {
+    top: -3rem;
+}
+
 .modal-content input:valid ~ label,
 .modal-content textarea:valid ~ label,
 .modal-content textarea:invalid ~ label,
