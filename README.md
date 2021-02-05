@@ -122,16 +122,35 @@ The website should be easy to navigate and should encourage the user to explore 
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframe.
 
-## Bugs found while developing the project
-- There was white space on the right side of the page while in mobile view, which was caused by the default margint-left and margin-right on the bootstrap row class. Found this out with the help of my fellow coders on Slack.
-- The placeholder text in the forms was dropping down and was overlapping the input text when the field was invalid. I solved the problem by targeting the textarea:invalid pseudo-element and setting its position.
-
 # Testing
 
 ## Testing was completed in the following stages: 
-1. Test all code is working and passes through the validators without errors
-2. Test website responsiveness across various browsers and various devices to confirm that the website is fully responsive
-3. Test that all features work as intended by testing user stories
+1. Test all code is working and passes through the W3C validators without errors - passed.
+2. Test website responsiveness across various browsers and various devices to confirm that the website is fully responsive - passed.
+3. Test that all features work as intended by testing user stories - passed.
+
+## Testing user stories:
+As a first time user,
+1. I want to be able to navigate through the site easily to find information.
+* The user can easily navigate through the website using the dropdown menu.
+2. I want to quickly establish what services the gym offers.
+* The user can find out what services the gym offers by simply scrolling down to section cards.
+3. I want to be able to read reviews left by existing gym members.
+* The user can navigate to the member reviews section by clicking the dropdown menu and then click the About Us link, which works as intended.
+4. I want to be able to easily sign up/sign in as a member.
+* The user can sign up as a member of the gym by clicking the provided Join Us button in the header of the page, which will open up a sign up form.
+5. I want to be able to follow the gym on various social media platforms for workout videos and tips.
+The user can click on the social media icons at the bottom of the page, which were tested and work as intended.
+6. I want the website to be responsive so I can view it on my mobile phone.
+The website was tested on various different mobile devices and scales well on all of them.
+
+## Bugs found and fixed while developing the project
+- There was white space on the right side of the page while in mobile view, which was caused by the default margint-left and margin-right on the bootstrap row class. Found this out with the help of my fellow coders on Slack.
+- The placeholder text in the forms was dropping down and was overlapping the input text when the field was invalid. I solved the problem by targeting the textarea:invalid pseudo-element and setting its position.
+- The forms were not validating any input given to them. I solved this issue by adding the required attribute to all input fields of the forms and also adding the type="submit" to the buttons. Now all the fields are required to be filled in.
+
+## Bugs to be fixed
+- The buttons in the forms do not perform any action on click. I wanted to make the buttons close the forms on click when all fields are filled in, but I could not find a way of doing it without using JS, which I have not learnt yet and I am not supposed to use in this project. I have found a way of doing it by adding data-dismiss="modal" to the buttons, but then the forms were closing even if the fields were empty and the required attribute in the input element was not working.
 
 ## Deployment
 
